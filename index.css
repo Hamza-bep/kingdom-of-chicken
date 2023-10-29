@@ -1,0 +1,273 @@
+.box
+{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    border: 1px solid black;
+    padding: 150px 100px;
+    border-radius: 5%;
+    padding-top: 100px;
+    background-color: #090912fc;
+    padding-top:0;
+    box-shadow: 1px 3px  5px 3px grey ;
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    border:none;
+    margin-top:0px;
+    padding-top: 0;
+    padding-bottom: 40px;
+    transform: scaleX(1.05)
+}
+
+html, body
+{
+    padding: 0;margin: 0;
+    background: url("wolfgang-hasselmann-uMfSHeycnYQ-unsplash1.jpg");
+    background-color: antiquewhite;
+    overflow: hidden;
+    background-color: burlywood;
+}
+
+
+.title
+{
+    text-align: center;
+    color: #eeeeeeee;
+    border-bottom: 0.5px solid #efeffefe;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color: red;
+    display: block;
+    padding-bottom: 2px;  
+    margin-bottom: 50px;
+    transition: 0.5s linear 0.5s;
+    margin-left: 0;
+    margin-right: 0;
+    width: 300px;
+
+    padding-bottom: 20px;padding-top: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+    
+}
+
+input[type="text"], input[type="password"]
+{
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    outline: none;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: 1px solid #ffffffff;
+    background-color: transparent;
+    transform: 1s ease-in ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,600;1,300&display=swap');
+
+input[type="text"]:focus, input[type="password"]:focus
+{
+    border-bottom: 1px solid silver;
+}
+
+
+input[type="text"],input[type="password"]
+{
+    margin-bottom: 40px;
+}
+.in
+{
+    padding-top:30px;
+    display:table;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.title:hover
+{
+    border-bottom-color: silver;
+    
+}
+
+.not
+{
+    padding-top: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 11px;
+    text-align: center;
+    word-spacing: -4px
+}
+
+.register:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav div
+{
+    background-color: red;
+    color:azure;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 20px;
+    
+    padding-bottom: 0;
+    padding-left: 0px;
+    padding-top: 0;
+    padding-right: 0;
+    
+    
+}
+
+nav div a
+{
+    text-align: center;
+    display: inline-table;
+    border: 0px solid ;
+    padding-bottom: 30px;
+    animation: hh 0.5s linear ;
+    border-bottom:1px solid transparent;
+}
+
+
+
+.left
+{
+    float: right;
+    display: inline-flex;
+}
+
+
+.q
+{
+    font-family: 'Roboto Mono', serif;
+    padding: 20px 20px
+}
+
+
+
+nav div a:hover
+{
+    background-color: white;
+    color: black;
+    border-bottom:1px solid black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul.liss
+{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: 1px solid black;
+  left: 0;
+  width: 351px;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+
+nav div a:hover .liss 
+{
+    display: block;    
+    left: 0;    
+    position: absolute;
+    padding-left: 0;
+    
+    
+}
+
+
+div a ul
+{
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+
+
+}
+div a ul li
+{
+    border-bottom: 1px solid black;
+    padding:10px 20px;
+    padding-bottom: 15px;
+    line-height: 20px;
+    
+}
+ul.liss li:hover
+{
+    background-color: #dddddd;
+}
+
+.sh
+{
+    position: absolute;
+    display: table;
+    margin-left: 130px;
+    margin-top: -40px;
+    border: 2px solid red;
+    opacity: 100%;
+    border-radius: 100%;
+    transform: scale(1.25);
+    padding: 6px;
+}
+div i
+{
+    transition: 0.5s linear ;
+    padding: 0;
+}
+
+div i:hover
+{
+    transform: rotateZ(360deg);
+    cursor: pointer;
+}
+div.title:hover
+{
+    transform: rotate(none);
+}
+
+.fa-egg
+{
+    padding:0px 10px;
+    
+}
+.left a
+{
+    position: absolute;
+    right: 0;
+    padding: 22px;
+    border-bottom:0.5px solid transparent;
+    text-align: center;
+}
+
+.ff
+{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    top: 50px;
+}
+
+nav div
+{
+    margin-bottom: 0px;
+}
+
+.jh:hover
+{
+    text-decoration: underline;
+}
